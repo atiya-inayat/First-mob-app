@@ -41,9 +41,7 @@ function AppPro(): JSX.Element {
         <Text style={isDarkMode ? styles.Dark : styles.ligh}>
           Hello thereeee...
         </Text>
-      </View>
 
-      <View>
         <Button
           title="change theme"
           onPress={() => theme('Alert Clicked')}
@@ -54,16 +52,3 @@ function AppPro(): JSX.Element {
 }
 
 export default AppPro;
-
-// import React from 'react';
-// import { View, Text } from 'react-native';
-
-// function AppPro() {
-//   return (
-//     <View>
-//       <Text>Hello...</Text>
-//     </View>
-//   );
-// }
-
-// export default AppPro;
